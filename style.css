@@ -1,0 +1,22 @@
+#movieResult {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.movie {
+  /* width: 300px; */
+  flex-wrap: wrap;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+.movie img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+.movie-card {
+  width: 200px;
+}
