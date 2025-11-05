@@ -10,13 +10,25 @@
   display: flex !important;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+
 }
 .movie img {
   width: 200px;
   height: 300px;
   object-fit: cover;
+ gap: 40px;
+margin-top: 20px;
 }
 .movie-card {
-  width: 200px;
+
+  height: 500px;
+ border-radius: 8px;
+width: 250px;
+padding: 15px;
+text-align: center;
+justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 15px;
 }
